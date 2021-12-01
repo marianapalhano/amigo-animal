@@ -1,6 +1,7 @@
 {
   "name": "amigo-animal",
   "version": "1.0.0",
+  "homepage": "https://marianapalhano.github.io/amigo-animal/",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
