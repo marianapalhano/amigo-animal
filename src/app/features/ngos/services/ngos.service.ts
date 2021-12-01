@@ -8,7 +8,7 @@ export class NgosService {
   ngos: Array<Ngo> = [
     {
       id: 1,
-      imgUrl: '../../../../../assets/img/ongs/1.png',
+      imgUrl: 'assets/img/ongs/1.png',
       name: 'União de Proteção Animal de Salvador',
       location: {
           city: 'Salvador',
@@ -18,7 +18,7 @@ export class NgosService {
     },
     {
       id: 2,
-      imgUrl: '../../../../../assets/img/ongs/2.png',
+      imgUrl: 'assets/img/ongs/2.png',
       name: 'Abrigo São Lázaro',
       location: {
           city: 'Fortaleza',
@@ -28,7 +28,7 @@ export class NgosService {
     },
     {
       id: 3,
-      imgUrl: '../../../../../assets/img/ongs/3.png',
+      imgUrl: 'assets/img/ongs/3.png',
       name: 'Anjos do Poço',
       location: {
           city: 'Recife',

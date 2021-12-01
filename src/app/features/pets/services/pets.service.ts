@@ -10,7 +10,7 @@ export class PetsService {
   pets: Array<Pet> = [
     {
       id: 1,
-      imgUrl: '../../../../../assets/img/pets/1.jpg',
+      imgUrl: 'assets/img/pets/1.jpg',
       name: 'Cocada',
       gender: 'Fêmea',
       age: '6 meses',
@@ -30,7 +30,7 @@ export class PetsService {
     },
     {
       id: 2,
-      imgUrl: '../../../../../assets/img/pets/2.jpg',
+      imgUrl: 'assets/img/pets/2.jpg',
       name: 'Kira',
       gender: 'Fêmea',
       age: '2 meses',
@@ -50,7 +50,7 @@ export class PetsService {
     },
     {
       id: 3,
-      imgUrl: '../../../../../assets/img/pets/3.jpg',
+      imgUrl: 'assets/img/pets/3.jpg',
       name: 'Nutella',
       gender: 'Fêmea',
       age: '4 meses',
@@ -70,7 +70,7 @@ export class PetsService {
     },
     {
       id: 4,
-      imgUrl: '../../../../../assets/img/pets/4.jpg',
+      imgUrl: 'assets/img/pets/4.jpg',
       name: 'Max',
       gender: 'Macho',
       age: '3 meses',
@@ -90,7 +90,7 @@ export class PetsService {
     },
     {
       id: 5,
-      imgUrl: '../../../../../assets/img/pets/5.jpg',
+      imgUrl: 'assets/img/pets/5.jpg',
       name: 'Baruk',
       gender: 'Macho',
       age: '2 anos 3 meses',
@@ -110,7 +110,7 @@ export class PetsService {
     },
     {
       id: 6,
-      imgUrl: '../../../../../assets/img/pets/6.jpg',
+      imgUrl: 'assets/img/pets/6.jpg',
       name: 'Fubá',
       gender: 'Macho',
       age: '2 meses',
@@ -130,7 +130,7 @@ export class PetsService {
     },
     {
       id: 7,
-      imgUrl: '../../../../../assets/img/pets/7.jpg',
+      imgUrl: 'assets/img/pets/7.jpg',
       name: 'Panqueca',
       gender: 'Fêmea',
       age: '4 meses',
@@ -150,7 +150,7 @@ export class PetsService {
     },
     {
       id: 8,
-      imgUrl: '../../../../../assets/img/pets/8.jpg',
+      imgUrl: 'assets/img/pets/8.jpg',
       name: 'Mel',
       gender: 'Fêmea',
       age: '4 meses',
@@ -170,7 +170,7 @@ export class PetsService {
     },
     {
       id: 9,
-      imgUrl: '../../../../../assets/img/pets/9.jpg',
+      imgUrl: 'assets/img/pets/9.jpg',
       name: 'Theo',
       gender: 'Macho',
       age: '5 anos',
@@ -190,7 +190,7 @@ export class PetsService {
     },
     {
       id: 10,
-      imgUrl: '../../../../../assets/img/pets/10.jpg',
+      imgUrl: 'assets/img/pets/10.jpg',
       name: 'Amora',
       gender: 'Fêmea',
       age: '6 anos',
@@ -210,7 +210,7 @@ export class PetsService {
     },
     {
       id: 11,
-      imgUrl: '../../../../../assets/img/pets/11.jpg',
+      imgUrl: 'assets/img/pets/11.jpg',
       name: 'Snow',
       gender: 'Macho',
       age: '2 meses',
@@ -230,7 +230,7 @@ export class PetsService {
     },
     {
       id: 12,
-      imgUrl: '../../../../../assets/img/pets/12.jpg',
+      imgUrl: 'assets/img/pets/12.jpg',
       name: 'Luna',
       gender: 'Fêmea',
       age: '2 meses',
@@ -250,7 +250,7 @@ export class PetsService {
     },
     {
       id: 13,
-      imgUrl: '../../../../../assets/img/pets/13.jpg',
+      imgUrl: 'assets/img/pets/13.jpg',
       name: 'Apolo',
       gender: 'Macho',
       age: '9 anos',
@@ -270,7 +270,7 @@ export class PetsService {
     },
     {
       id: 14,
-      imgUrl: '../../../../../assets/img/pets/14.jpg',
+      imgUrl: 'assets/img/pets/14.jpg',
       name: 'Frida',
       gender: 'Fêmea',
       age: '2 anos',
@@ -290,7 +290,7 @@ export class PetsService {
     },
     {
       id: 15,
-      imgUrl: '../../../../../assets/img/pets/15.jpg',
+      imgUrl: 'assets/img/pets/15.jpg',
       name: 'Paçoca',
       gender: 'Macho',
       age: '9 meses',
@@ -310,7 +310,7 @@ export class PetsService {
     },
     {
       id: 16,
-      imgUrl: '../../../../../assets/img/pets/16.jpg',
+      imgUrl: 'assets/img/pets/16.jpg',
       name: 'Fiona',
       gender: 'Fêmea',
       age: '10 meses',
@@ -330,7 +330,7 @@ export class PetsService {
     },
     {
       id: 17,
-      imgUrl: '../../../../../assets/img/pets/17.jpg',
+      imgUrl: 'assets/img/pets/17.jpg',
       name: 'Bruce',
       gender: 'Macho',
       age: '5 anos',
@@ -350,7 +350,7 @@ export class PetsService {
     },
     {
       id: 18,
-      imgUrl: '../../../../../assets/img/pets/18.jpg',
+      imgUrl: 'assets/img/pets/18.jpg',
       name: 'Pipoca',
       gender: 'Fêmea',
       age: '1 ano 5 meses',
@@ -445,7 +445,7 @@ export class PetsService {
     const nextId = this.generateNextId();
     return this.createPetObject(
       nextId,
-      `../../../../../assets/img/pets/${nextId}.jpg`,
+      `assets/img/pets/${nextId}.jpg`,
       '',
       'Fêmea',
       '',
